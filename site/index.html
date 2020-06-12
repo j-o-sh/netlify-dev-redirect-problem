@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    This is to illustrate a problem with the redirect rules of netlify dev
+  </p>
+
+  <ul>
+    <li>
+      <a href="/foo/bar">This link</a> does not 'really' exist and should 
+      therefore be redirected to the function.
+    </li>
+    <li>
+      <a href="/foo/baz">This link</a> <b>does</b> exist as a real file and should therefor 
+      <b>not</b> be forwarded to the function
+    </li>
+  </ul>
+</body>
+</html>

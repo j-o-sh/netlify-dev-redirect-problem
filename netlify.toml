@@ -1,0 +1,13 @@
+[build]
+command='npm run build'
+publish='site'
+functions='functions'
+
+[dev]
+framework='#static'
+publish='site'
+
+[[redirects]]
+from='/foo/*'
+to='.netlify/functions/something'
+status=200

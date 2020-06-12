@@ -1,0 +1,24 @@
+{
+  "name": "netlify-dev-redirect-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo \"done.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-o-sh/netlify-dev-redirect-problem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-o-sh/netlify-dev-redirect-problem/issues"
+  },
+  "homepage": "https://github.com/j-o-sh/netlify-dev-redirect-problem#readme",
+  "devDependencies": {
+    "netlify-cli": "^2.53.0"
+  }
+}
