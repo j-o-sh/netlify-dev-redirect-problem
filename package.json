@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/j-o-sh/netlify-dev-redirect-problem#readme",
   "devDependencies": {
-    "netlify-cli": "^2.53.0"
+    "netlify-cli": "^2.54.0"
   }
 }

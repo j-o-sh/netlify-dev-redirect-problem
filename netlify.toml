@@ -11,3 +11,8 @@ publish='site'
 from='/foo/*'
 to='.netlify/functions/something'
 status=200
+
+[[redirects]]
+from='/wow/*'
+to='.netlify/functions/something?special=:splat&yes=no'
+status=200
